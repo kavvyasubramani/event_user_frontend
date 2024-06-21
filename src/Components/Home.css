@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 100px 20px;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 270px;
+  margin-right: 250px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #ff8c00;
+}
+
+.arrow {
+  margin-left: 5px;
+}
